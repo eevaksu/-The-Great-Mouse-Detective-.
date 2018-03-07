@@ -5,3 +5,4 @@ function titleCase (title) {
 }
 expect(titleCase('the great mouse detective').to.be.a('string');
 expect (titleCase('the great mouse detective')).to.equal('The Great Mouse Detective');
+expect(titleCase('a')).to.equal('A');
